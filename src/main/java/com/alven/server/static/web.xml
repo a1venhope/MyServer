@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web>
+
+    <handler>
+        <handler-name>loginHandler</handler-name>
+        <handler-class>com.alven.server.handler.LoginHandler</handler-class>
+    </handler>
+    <handler-mapping>
+        <handler-name>loginHandler</handler-name>
+        <url-pattern>/login</url-pattern>
+        <url-pattern>/</url-pattern>
+    </handler-mapping>
+
+</web>
