@@ -15,8 +15,8 @@ public class Context {
     private Map<String,String> mapping;
 
     public Context() {
-        handlers = new HashMap<>();
-        mapping = new HashMap<>();
+        handlers = new HashMap<String, String>();
+        mapping = new HashMap<String, String>();
     }
 
     public Map<String, String> getHandlers() {
