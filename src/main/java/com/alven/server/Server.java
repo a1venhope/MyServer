@@ -44,7 +44,7 @@ public class Server {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            new Thread(new Dispatcher(context,client)).start();
+            new Thread(new Dispatcher(context,client,null,null)).start();
         }
     }
 
